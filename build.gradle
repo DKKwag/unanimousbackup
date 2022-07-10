@@ -35,10 +35,10 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
     // 확인 (유효성 검사)
     implementation 'org.springframework.boot:spring-boot-starter-validation'
-    // 이메일 인증
-    implementation 'org.springframework.boot:spring-boot-starter-mail'
+//    // 이메일 인증
+//    implementation 'org.springframework.boot:spring-boot-starter-mail'
     // 인증번호 유효시간 동안 저장
-    implementation 'org.springframework.boot:spring-boot-starter-data-redis'
+//    implementation 'org.springframework.boot:spring-boot-starter-data-redis'
 
     // swagger 설정
     implementation group: 'io.springfox', name: 'springfox-swagger-ui', version: '2.9.2'
@@ -51,8 +51,8 @@ dependencies {
     implementation 'io.jsonwebtoken:jjwt-impl:0.11.5'
     implementation 'io.jsonwebtoken:jjwt-jackson:0.11.5'
     implementation 'com.auth0:java-jwt:3.19.2'
-    // 구글 로그인
-    implementation 'org.springframework.boot:spring-boot-starter-oauth2-client'
+//    // 구글 로그인
+//    implementation 'org.springframework.boot:spring-boot-starter-oauth2-client'
 
     //S3 이미지 업로드를 위한 코드
     implementation 'org.springframework.cloud:spring-cloud-starter-aws:2.2.6.RELEASE'

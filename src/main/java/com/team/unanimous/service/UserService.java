@@ -2,6 +2,7 @@ package com.team.unanimous.service;
 
 import com.team.unanimous.UnanimousApplication;
 import com.team.unanimous.dto.ImageDto;
+//import com.team.unanimous.dto.requestDto.EmailRequestDto;
 import com.team.unanimous.dto.requestDto.EmailRequestDto;
 import com.team.unanimous.dto.requestDto.NicknameRequestDto;
 import com.team.unanimous.dto.requestDto.PasswordRequestDto;

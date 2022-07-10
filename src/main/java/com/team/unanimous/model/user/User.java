@@ -2,7 +2,7 @@ package com.team.unanimous.model.user;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
-import com.team.unanimous.dto.requestDto.EmailRequestDto;
+//import com.team.unanimous.dto.requestDto.EmailRequestDto;
 import com.team.unanimous.dto.requestDto.SignupRequestDto;
 import com.team.unanimous.model.Image;
 import com.team.unanimous.model.meeting.MeetingUser;
