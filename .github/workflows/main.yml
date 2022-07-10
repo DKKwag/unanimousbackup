@@ -25,3 +25,10 @@ jobs:
       - name: Build with Gradle
         run: ./gradlew build
         shell: bash
+    
+      - name: Sample Azure action
+        with: # Set Azure credentials secret as an input
+          credentials: ${{ ImageAccessKey }}
+        env: # Or as an environment variable
+          credentials: ${{ ImageSecretKey }}
+        
